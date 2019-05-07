@@ -1,0 +1,155 @@
+.conteiner{
+	/*display: flex;
+	justify-content: center;*/
+}
+
+.wrap-conteiner{
+	flex-direction:column;
+	justify-content:center;
+	height: 224px;
+	color: black
+
+}
+.wrap-conteiner>h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	align-self: center
+}
+.wrap-conteiner>p{
+	font-family: 'Crimson Text', serif;
+	font-size: 16px;
+	width: 800px;
+	text-align: center;
+	padding: 30px 30px 0px 30px;
+	line-height: 1.5;
+
+}
+.item{
+	align-self: center;
+
+}
+/*---portfolio---*/
+
+.portfolio{
+	background: #f9f9f9;
+	justify-content: center;
+}
+.wrap-post{
+	width: 1000px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: 
+}
+.wrap-col{
+	width: 306.36px;
+	margin: 50px 10px 20px 10px;
+	background: white;
+	line-height: 1.5;
+}
+.wrap-col>img{
+	width: 306.36px;
+}
+.entry-title{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+.decoraine{
+	font-family: 'Crimson Text', serif;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.decoraine>a{
+	text-decoration: none;
+	color: black;
+}
+.wrap-col>a{
+	text-decoration: none;	
+}
+
+/*---OUR PHILOSOPHY---*/
+.content-box{
+	justify-content: center;
+}
+.wrap-content{
+	padding: 40px 10px;
+	width: 1000px;
+	flex-direction:column;
+	justify-content: center;	
+}
+.wrap-box{
+	text-align: center;
+}
+.wrap-box>h3{
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrap-colun{
+	flex-direction: row;
+	font-size: 16px;
+	font-family: 'Crimson Text', serif;
+	line-height: 1.5;
+	
+}
+.wrap-colun>p{
+	padding: 50px 10px 20px 10px;
+}
+.blockquote{
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+}
+.blockquote>p{
+	font-size: 40px;
+}
+
+/*------*/
+
+.column{
+	flex-direction: column;
+	background: #f9f9f9;
+}
+.item{
+	flex-direction: row;
+}
+.item-reverse{
+	flex-direction: row-reverse;
+}
+.img>img{
+	width: 674px;
+}
+.title-article{
+    padding: 40px 100px;
+    flex-direction: column;
+}
+.title-article>h3{
+	font-size: 20px;
+	line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bolder;
+}
+.title-article>p{
+	font-size: 16px;
+	margin: 10px 0;
+	font-family: 'Crimson Text', serif;
+	line-height: 1.5;
+	text-align: center;
+	color: #686868;
+}
+.title-article>a.button{
+	background-color: #161616;
+	padding: 9px 20px;
+	color: #fff;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	align-self:center;
+}
+.title-article>a.button:hover{
+	background-color: #333;
+}

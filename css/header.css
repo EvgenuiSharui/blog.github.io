@@ -1,0 +1,64 @@
+header{
+	text-align: center;
+	background: #fff;
+}
+/*---logo---*/
+.logo {
+	color: #333;
+	padding: 20px 0 30px;
+}
+ .logo a{
+ 	font-family: 'Dancing Script',cursive;
+ 	font-size: 80px;
+ 	color: #333;
+ 	font-weight: bold;
+ 	display: block;
+ 	line-height: 1.3;
+ }
+ .logo span {
+ 	font-size: 16px;
+ 	letter-spacing: 1px;
+ }
+@media(max-width:767px){
+	 .logo{padding: 30px 0 20px;}
+	 .logo a{font-size: 65px;}
+	 .logo span{font-size: 16px;}
+}
+
+/*---menu---*/
+
+.cssMenu {
+  background: #161616;
+  width: auto;
+  padding: 0;
+  line-height: 1;
+/*  display: flex;*/
+  position: relative;
+  z-index: 10;
+}
+.cssMenu ul {
+	flex-direction:row;
+	justify-content:center;
+	height: 44px;
+	margin:0 ;
+
+}
+
+.cssMenu>ul>li {
+	align-self:center;
+	margin:0 15px;
+	
+
+}
+.cssMenu>ul>li>a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	text-transform:uppercase;
+	padding: 15px 20px;
+}
+.cssMenu>ul>li>a:hover {
+	color: black;
+	background: white;
+}
